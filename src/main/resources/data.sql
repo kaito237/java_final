@@ -15,7 +15,7 @@ CREATE TABLE User(
 
 /*============================== INSERT DATABASE =======================================*/
 
-INSERT INTO User (full_name, email, pass, exp_in_year, pro_skill, project_id, rolee)
+INSERT INTO User (full_name, email, pass, exp_in_year, pro_skill, project_id, role)
 VALUES
 ('Hoang Thi An', 'hoang.an@vti.com.vn', 'pass12345', 6, 'Java, Spring Framework', 1, 'manager'),
 ('Nguyen Van Binh', 'nguyen.binh@vti.com.vn', 'secure456', 2, 'HTML, CSS, JavaScript', 2, 'employee'),
