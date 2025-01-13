@@ -28,7 +28,7 @@ public class UserRepository implements IUserRepository {
                 String fullName = resultSet.getString("full_name");
                 String email = resultSet.getString("email");
                 String password = resultSet.getString("pass");
-                Role role = Role.fromValue(resultSet.getString("rolee"));
+                Role role = Role.fromValue(resultSet.getString("role"));
 
                 // Tạo đối tượng User
                 User user = new User(userid, fullName, email, password,role);
