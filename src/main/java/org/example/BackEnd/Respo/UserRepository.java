@@ -11,7 +11,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserResponsitory implements IUserResponsitory {
+public class UserRepository implements IUserRepository {
     public List<User> getAllUserById(int id) {
         List<User> ds = new ArrayList<>();
         String query = "SELECT * FROM User WHERE project_id = ?";

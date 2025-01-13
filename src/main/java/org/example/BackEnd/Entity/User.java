@@ -49,11 +49,11 @@ public class User {
         this.password = password;
     }
 
-    public Role getRolee() {
+    public Role getRole() {
         return role;
     }
 
-    public void setRolee(Role role) {
+    public void setRole(Role role) {
         this.role = role;
     }
 
